@@ -30,8 +30,7 @@ run_dotbot () {
     -c "$config" $ARGS
 }
 
-# run_dotbot 'steps/terminal.yml' || true
+run_dotbot 'setup/console.yml' || true
 if [ "$CODESPACES" = true ]; then
   run_dotbot 'setup/codespaces.yml' || true
 fi
-# run_dotbot 'steps/vscode.yml' || true
