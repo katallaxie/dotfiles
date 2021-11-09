@@ -1,0 +1,10 @@
+---
+
+# Setting up vscode:
+- link:
+    # codespaces:
+    "~/.vscode-remote/data/Machine/settings.json":
+      if: '[ "$CODESPACES" = true ]'
+      path: vscode/settings.json
+      create: true
+      force: true

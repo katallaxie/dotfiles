@@ -19,16 +19,11 @@
     ~/.hushlogin: config/hushlogin
     ~/.inputrc: config/inputrc
     ~/.zplugrc: config/zplugrc
-    ~/.hyper.js: config/hyper.js
 
     # Git:
     ~/.gitconfig: config/gitconfig
     ~/.gitignore_global: config/gitignore
     ~/.gitattributes_global: config/gitattributes
-
-    # Tools:
-    ~/.psqlrc: config/psqlrc
-    ~/.sqliterc: config/sqliterc
 
     # Editors:
     ~/.editorconfig: config/editorconfig
