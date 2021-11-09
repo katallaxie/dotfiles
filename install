@@ -39,3 +39,4 @@ run_dotbot 'setup/console.yml' || true
 if [ "$CODESPACES" = true ]; then
   run_dotbot 'setup/codespaces.yml' || true
 fi
+run_dotbot 'setup/vscode.yml' || true
