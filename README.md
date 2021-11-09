@@ -10,4 +10,4 @@ Codespaces have support for a dotfile repository. Simply [fork](https://docs.git
 
 ## License
 
-[MIT(/LICENSE)
+[MIT](/LICENSE)
