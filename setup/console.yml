@@ -20,6 +20,9 @@
     ~/.inputrc: config/inputrc
     ~/.zplugrc: config/zplugrc
 
+    # mackup
+    ~/.mackup.cfg: config/mackup
+
     # Git:
     ~/.gitconfig: config/gitconfig
     ~/.gitignore_global: config/gitignore

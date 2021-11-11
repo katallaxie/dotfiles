@@ -1,0 +1,7 @@
+[applications_to_ignore]
+bash
+bash-it
+bat
+ssh
+tmux
+zsh
