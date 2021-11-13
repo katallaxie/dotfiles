@@ -6,10 +6,6 @@ zplug "dracula/zsh", as:theme
 # Sorted in order of appearance (new at the bottom):
 zplug "zsh-users/zsh-syntax-highlighting"
 
-# Offline variant for gitignore.io
-zplugin ice pick'init.zsh' blockf
-zplugin light laggardkernel/git-ignore
-
 # Install plugins if there are plugins that have not been installed:
 if ! zplug check; then
   zplug install
