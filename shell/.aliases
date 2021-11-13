@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+# `.aliases` is used to provide custom variables.
+#
+# This file is used as a part of `.shell_env`
+
+# === Aliases ===
+
+# Weather
+alias weather="curl v2.wttr.in/Wustermark"
+
+# Clear terminal
+alias cl="clear"
+
+# What's my IP address
+alias whatsmyip="curl https://ipinfo.io/ip"
+
+# `cat` with beautiful colors. requires: pip install -U Pygments
+alias c='pygmentize -O style=monokai -f console256 -g'
