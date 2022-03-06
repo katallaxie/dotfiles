@@ -17,3 +17,10 @@ set -e
 
 echo 'Configuring your mac. Hang tight.'
 osascript -e 'tell application "System Preferences" to quit'
+
+# Restarting apps:
+echo 'Restarting apps...'
+killall Finder
+killall Dock
+
+echo 'Done!'
