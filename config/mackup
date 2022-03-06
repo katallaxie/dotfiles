@@ -1,3 +1,7 @@
+[storage]
+engine = icloud
+directory = Backup
+
 [applications_to_ignore]
 bash
 bash-it
