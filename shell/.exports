@@ -91,6 +91,9 @@ eval "$(direnv hook zsh)"
 # serverless:
 export PATH="$HOME/.serverless/bin:$PATH"
 
+# flutter:
+export PATH=$PATH:$HOME/flutter/bin
+
 
 # === Histories ===
 
