@@ -34,7 +34,7 @@ plugins=(
   command-not-found
   gitfast
   gitignore
-  osx
+  macos
 )
 
 # User configuration:
