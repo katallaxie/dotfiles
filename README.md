@@ -9,7 +9,7 @@
 Cloning the `dofiles` into a local folder an running the install script.
 
 ```bash
-git clone https://github.com/katallaxie/dotfiles ~/.dotfiles && (cd ~/.dotfiles; ./install)
+git clone https://github.com/katallaxie/dotfiles && (cd dotfiles; ./install)
 ```
 
 ## Codespaces
