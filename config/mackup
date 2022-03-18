@@ -6,5 +6,6 @@ directory = Backup
 bash
 bash-it
 bat
+homebrew
 tmux
 zsh
