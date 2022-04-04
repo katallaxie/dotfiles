@@ -52,6 +52,7 @@ export PYTHONIOENCODING='UTF-8'
 
 # Homebrew:
 export HOMEBREW_NO_ANALYTICS=1  # disables statistics that brew collects
+export PATH=$PATH:/opt/homebrew/bin
 
 # Pagers:
 # This affects every invocation of `less`.
