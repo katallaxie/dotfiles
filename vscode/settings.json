@@ -32,5 +32,8 @@
     // Terminal:
     "terminal.integrated.defaultProfile.osx": "zsh",
     "terminal.integrated.defaultProfile.linux": "zsh",
-    "terminal.integrated.enableBell": true
+    "terminal.integrated.enableBell": true,
+
+    // Git:
+    "git.mergeEditor": true
   }
