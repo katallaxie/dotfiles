@@ -35,5 +35,6 @@
     "terminal.integrated.enableBell": true,
 
     // Git:
-    "git.mergeEditor": true
+    "git.mergeEditor": true,
+    "github.copilot.enable": true
   }
