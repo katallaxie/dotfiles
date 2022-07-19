@@ -30,8 +30,5 @@ alias ls="exa"
 # `bat` as the new `less` command
 alias cat="bat"
 
-# `tldr` as the better access to man pages
-alias man="tldr"
-
 # have a better top experience
 alias top="htop"
