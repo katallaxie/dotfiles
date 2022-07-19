@@ -42,3 +42,9 @@ else
   run_dotbot 'setup/deps.yml' || true
 fi
 run_dotbot 'setup/vscode.yml' || true
+
+# reload zsh
+if [ -z "$CODESPACES" ]; then
+  echo "Reloading ..."
+  exec zsh
+fi
