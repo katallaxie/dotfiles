@@ -20,3 +20,6 @@ alias whatsmyip="curl https://ipinfo.io/ip"
 
 # `cat` with beautiful colors. requires: pip install -U Pygments
 alias c='pygmentize -O style=monokai -f console256 -g'
+
+# `ping` in the 21th century.
+alias ping="prettyping -c6"

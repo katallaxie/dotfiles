@@ -41,7 +41,11 @@ PATH="/usr/local/share/npm/bin:$PATH"
 # === General ===
 
 # Editor:
-export EDITOR=$(which nano)
+export EDITOR=$(which micro)
+# fallback to `nano` if `micro` is not found:
+if [ -z "$EDITOR" ]; then
+  export EDITOR=$(which nano)
+fi
 
 # GPG:
 export GPG_TTY=$(tty)
