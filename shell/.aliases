@@ -23,3 +23,9 @@ alias c='pygmentize -O style=monokai -f console256 -g'
 
 # `ping` in the 21th century.
 alias ping="prettyping -c6"
+
+# `exa` as the better `ls` command
+alias ls="exa"
+
+# `bat` as the new `less` command
+alias cat="bat"
