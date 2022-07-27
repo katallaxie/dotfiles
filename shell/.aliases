@@ -32,3 +32,6 @@ alias cat="bat"
 
 # have a better top experience
 alias top="htop"
+
+# have a quick way to pull changes
+alias gp="git pull --rebase"
