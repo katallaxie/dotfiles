@@ -1,0 +1,4 @@
+{
+  "name": "katallaxie/dotfiles",
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest"
+}

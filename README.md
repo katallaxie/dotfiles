@@ -3,6 +3,7 @@
 ## Features
 
 * [Codespaces](https://github.com/features/codespaces)
+* 100% shell command produtivity boost
 
 ## Setup
 
