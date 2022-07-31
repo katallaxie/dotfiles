@@ -105,7 +105,6 @@ cask "sketch"
 cask "temurin8"
 cask "viscosity"
 cask "wombat"
-mas "1Password 7", id: 1333542190
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
 mas "Numbers", id: 409203825
