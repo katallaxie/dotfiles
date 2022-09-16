@@ -99,6 +99,8 @@ export PATH="$HOME/.serverless/bin:$PATH"
 # flutter:
 export PATH=$PATH:$HOME/flutter/bin
 
+# k8s
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
 # === Histories ===
 
