@@ -47,6 +47,9 @@ if [ -z "$EDITOR" ]; then
   export EDITOR=$(which nano)
 fi
 
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
 # GPG:
 export GPG_TTY=$(tty)
 eval "$(gpg-agent --daemon --allow-preset-passphrase > /dev/null 2>&1)"
