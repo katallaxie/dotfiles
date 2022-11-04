@@ -35,6 +35,8 @@ plugins=(
   gitfast
   gitignore
   macos
+  rbenv
+  ruby
 )
 
 # User configuration:
