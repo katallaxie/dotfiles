@@ -85,7 +85,7 @@ source "/opt/homebrew/opt/nvm/nvm.sh"
 eval "$(pyenv init --path)"
 
 # rbenv:
-eval "$(~/.rbenv/bin/rbenv init - zsh)"
+eval "$(rbenv init - zsh)"
 
 # rustup:
 source "$HOME/.cargo/env"
