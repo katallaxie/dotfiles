@@ -31,10 +31,8 @@ HIST_IGNORE_SPACE="true"
 # Add wisely, as too many plugins slow down shell startup.
 
 plugins=(
-  command-not-found
   gitfast
   gitignore
-  macos
   rbenv
   ruby
 )
