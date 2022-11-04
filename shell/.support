@@ -38,3 +38,6 @@ _fzf_compgen_path() {
 # https://github.com/rupa/z
 
 source "/opt/homebrew/etc/profile.d/z.sh"
+
+
+eval "$(rbenv init - zsh)"
