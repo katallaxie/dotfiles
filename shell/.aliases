@@ -12,7 +12,6 @@ alias weather="curl v2.wttr.in/Wustermark"
 # Clear terminal
 alias cl="clear"
 
-
 # What's my IP address
 alias whatsmyip="curl https://ipinfo.io/ip"
 
