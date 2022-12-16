@@ -105,6 +105,9 @@ export PATH=$PATH:$HOME/flutter/bin
 # k8s
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
+# openjdk
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+
 # === Histories ===
 
 # Enable persistent REPL history for `node`.
