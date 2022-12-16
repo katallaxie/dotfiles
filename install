@@ -35,7 +35,7 @@ run_dotbot () {
 run_dotbot 'setup/console.yml' || true
 if [ "$CODESPACES" = true ]; then
   run_dotbot 'setup/codespaces.yml' || true
-else 
+else
   run_dotbot 'setup/deps.yml' || true
 fi
 run_dotbot 'setup/vscode.yml' || true
@@ -44,4 +44,5 @@ run_dotbot 'setup/vscode.yml' || true
 if [ -z "$CODESPACES" ]; then
   echo "Reloading ..."
   exec zsh
+  exec zplug update
 fi

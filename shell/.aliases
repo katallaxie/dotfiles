@@ -12,8 +12,6 @@ alias weather="curl v2.wttr.in/Wustermark"
 # Clear terminal
 alias cl="clear"
 
-# Generate .gitignore files with templates from gitignore.io offline
-alias gi="git-ignore"
 
 # What's my IP address
 alias whatsmyip="curl https://ipinfo.io/ip"

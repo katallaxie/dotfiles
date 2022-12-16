@@ -69,3 +69,8 @@ loadenv() {
   done < "$1"
   echo 'Loaded!'
 }
+
+# Creates .gitignore file from gitignore.io
+function gi() {
+  curl -sLw "\n" https://www.toptal.com/developers/gitignore/api/\$@ ;
+}
