@@ -38,3 +38,7 @@ _fzf_compgen_path() {
 # https://github.com/rupa/z
 
 source "/opt/homebrew/etc/profile.d/z.sh"
+
+# === fig ===
+# https://fig.io/
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
