@@ -9,10 +9,10 @@
     "files.autoSave": "onFocusChange",
     "files.exclude": {
       "**/.DS_Store": true,
-  
+
       "**/node_modules": true,
       "**/bower_components": true,
-  
+
       "**/__pycache__": true,
       "**/.cache": true,
       "**/.idea": true,
@@ -24,11 +24,14 @@
       "**/htmlcoverage": true,
       "**/docs/build": true
     },
-  
+
+    // Format:
+    "editor.formatOnSave": true,
+
     // Stats and telemetry:
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-  
+
     // Terminal:
     "terminal.integrated.defaultProfile.osx": "zsh",
     "terminal.integrated.defaultProfile.linux": "zsh",
@@ -36,5 +39,11 @@
 
     // Git:
     "git.mergeEditor": true,
-    "github.copilot.enable": true
+    "github.copilot.enable": true,
+
+    // Go:
+    "gopls": {
+      "ui.semanticTokens": true,
+      "formatting.gofumpt": true
+    }
   }
