@@ -88,7 +88,7 @@ eval "$(pyenv init --path)"
 eval "$(rbenv init - zsh)"
 
 # rustup:
-source "$HOME/.cargo/env"
+[[ -f "$HOME/.cargo/env"]] && source "$HOME/.cargo/env"
 
 # direnv:
 eval "$(direnv hook zsh)"
