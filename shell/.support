@@ -42,3 +42,8 @@ source "/opt/homebrew/etc/profile.d/z.sh"
 # === fig ===
 # https://fig.io/
 [[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
+
+# === Google Cloud SDK ===
+# https://cloud.google.com/sdk/docs/quickstart-macos
+[[ -f "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc" ]] && source "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc"
+[[ -f "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc" ]] && source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"
