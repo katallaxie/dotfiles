@@ -32,3 +32,6 @@ alias top="htop"
 
 # have a quick way to pull changes
 alias gp="git pull --rebase"
+
+# `duf` as the new `df` command
+alias df="duf"
