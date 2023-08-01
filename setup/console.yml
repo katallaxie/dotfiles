@@ -12,7 +12,19 @@
     stdout: true
     stderr: true
 
+# See https://github.com/alacritty/alacritty-theme
+- shell:
+  - command: |
+      git submodule update --init --recursive
+    description: Update submodules
+
 - link:
+    # Alacritty:
+    ~/.config/alacritty/themes:
+      path: alacritty-theme
+      create: true
+    ~/.config/alacritty/alacritty.yml: setup/alacritty.yml
+
     # Terminal:
     ~/.shell:
       path: shell
