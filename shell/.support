@@ -33,7 +33,6 @@ _fzf_compgen_path() {
   ag -g "" "$1"
 }
 
-
 # === z ===
 # https://github.com/rupa/z
 
