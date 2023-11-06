@@ -1,5 +1,5 @@
 
-   
+
 ---
 
 - clean: ['~']
@@ -42,6 +42,9 @@
 
     # mackup
     ~/.mackup.cfg: config/mackup
+
+    # csync
+    ~/.csync.yml: config/csync.yml
 
     # Git:
     ~/.gitconfig: config/gitconfig
