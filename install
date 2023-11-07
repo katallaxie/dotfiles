@@ -40,5 +40,6 @@ else
 fi
 run_dotbot 'setup/vscode.yml' || true
 
-# reload zsh
+# Run updates
+
 [[ -z "$CODESPACES" ]] && exec scripts/update.sh
