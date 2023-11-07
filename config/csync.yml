@@ -3,6 +3,26 @@ provider:
     name: icloud
     path: ""
     directory: ""
+includes:
+  - azure
+  - aws
+  - git
+  - bartender
+  - docker
+  - fig
+  - gnupg
+  - hyper
+  - kubectl
+  - macos
+  - magnet
+  - mail
+  - npm
+  - raycast
+  - ssh
+  - terminal
+  - tmux
+  - vscode
+  - wget
 excludes:
   - bash
   - bat
