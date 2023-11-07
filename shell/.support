@@ -35,7 +35,6 @@ _fzf_compgen_path() {
 
 # === z ===
 # https://github.com/rupa/z
-
 source "/opt/homebrew/etc/profile.d/z.sh"
 
 # === fig ===
@@ -46,9 +45,3 @@ source "/opt/homebrew/etc/profile.d/z.sh"
 # https://cloud.google.com/sdk/docs/quickstart-macos
 [[ -f "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc" ]] && source "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc"
 [[ -f "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc" ]] && source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"
-
-# === ngrok ===
-# https://ngrok.com/
-if command -v ngrok &>/dev/null; then
-    eval "$(ngrok completion)"
-fi

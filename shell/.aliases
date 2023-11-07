@@ -35,3 +35,7 @@ alias gp="git pull --rebase"
 
 # `duf` as the new `df` command
 alias df="duf"
+
+# have a quick way to establish a tunnel
+alias localtunnel="ngrok"
+alias tunnel="ngrok"

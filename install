@@ -41,8 +41,4 @@ fi
 run_dotbot 'setup/vscode.yml' || true
 
 # reload zsh
-if [ -z "$CODESPACES" ]; then
-  echo "Reloading ..."
-  exec zsh
-  exec zplug update
-fi
+[[ -z "$CODESPACES" ]] && exec scripts/update.sh

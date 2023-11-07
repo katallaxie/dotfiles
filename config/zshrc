@@ -41,7 +41,6 @@ plugins=(
 )
 
 # User configuration:
-
 export PATH="$PATH:/usr/local/sbin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 # Custom envs:
