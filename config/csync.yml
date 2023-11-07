@@ -3,3 +3,10 @@ provider:
     name: icloud
     path: ""
     directory: ""
+excludes:
+  - bash
+  - bat
+  - homebrew
+  - tmux
+  - zsh
+
