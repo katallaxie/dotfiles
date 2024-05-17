@@ -39,3 +39,6 @@ alias df="duf"
 # have a quick way to establish a tunnel
 alias localtunnel="ngrok"
 alias tunnel="ngrok"
+
+# `code-insiders` command alias
+alias ci="code-insiders"
