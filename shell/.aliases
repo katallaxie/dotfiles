@@ -7,7 +7,7 @@
 # === Aliases ===
 
 # Weather
-alias weather="curl v2.wttr.in/Jena?m"
+alias weather="curl -X GET 'v2.wttr.in/Jena?m'"
 
 # Clear terminal
 alias cl="clear"
