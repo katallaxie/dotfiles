@@ -7,3 +7,4 @@ size = 12
 features = []
 
 theme = "Monokai Vivid" # ignore it, be under the `editor` header
+padding-x = 10
