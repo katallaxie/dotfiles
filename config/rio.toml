@@ -2,4 +2,4 @@
 program = "micro"
 args = []
 
-theme = "dracula" # ignore it, be under the `editor` header
+theme = "Monokai Vivid" # ignore it, be under the `editor` header
