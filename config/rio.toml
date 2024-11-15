@@ -3,7 +3,7 @@ program = "micro"
 args = []
 
 [fonts]
-size = 16
+size = 14
 features = []
 
 theme = "Monokai Vivid" # ignore it, be under the `editor` header
