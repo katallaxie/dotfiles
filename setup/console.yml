@@ -52,6 +52,9 @@
     ~/.editorconfig: config/editorconfig
     ~/.nanorc: config/nanorc
 
+    # Rio
+    ~/.config/rio/config.toml: config/rio.toml
+
     # SSH:
     ~/.ssh/config:
       path: config/ssh_config

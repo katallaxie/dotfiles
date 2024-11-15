@@ -1,0 +1,5 @@
+[editor]
+program = "micro"
+args = []
+
+theme = "dracula" # ignore it, be under the `editor` header
