@@ -39,7 +39,14 @@
 
     // Git:
     "git.mergeEditor": true,
-    "github.copilot.enable": true,
+    "github.copilot.enable": {
+      "*": true,
+      "plaintext": false,
+      "markdown": true,
+      "scminput": false,
+      "javascript": true,
+      "python": true
+    },
 
     // Go:
     "gopls": {
