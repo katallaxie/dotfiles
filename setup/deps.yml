@@ -11,3 +11,22 @@
     # this is done because not everybody needs the same casks and apps,
     # but most of people would need the same formulas.
     include: ['tap', 'brew']
+
+# Run update script
+- shell:
+  - command: bash './scripts/update.sh'
+    stdout: true
+    stderr: true
+
+# Reload zsh
+- shell:
+    command: source ~/.zshrc
+    stdout: true
+    stderr: true
+
+# Update console
+- shell:
+    command: echo "🎉 All dependencies installed!"
+    description: All dependencies installed
+    stdout: true
+    stderr: true

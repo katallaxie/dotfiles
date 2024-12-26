@@ -2,6 +2,15 @@
 
 set -e
 
+echo -e "
+██████╗░░█████╗░████████╗███████╗██╗██╗░░░░░███████╗░██████╗
+██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██║██║░░░░░██╔════╝██╔════╝
+██║░░██║██║░░██║░░░██║░░░█████╗░░██║██║░░░░░█████╗░░╚█████╗░
+██║░░██║██║░░██║░░░██║░░░██╔══╝░░██║██║░░░░░██╔══╝░░░╚═══██╗
+██████╔╝╚█████╔╝░░░██║░░░██║░░░░░██║███████╗███████╗██████╔╝
+╚═════╝░░╚════╝░░░░╚═╝░░░╚═╝░░░░░╚═╝╚══════╝╚══════╝╚═════╝░
+"
+
 # Exporting the specific shell we want to work with:
 
 SHELL='/bin/bash'
@@ -33,13 +42,9 @@ run_dotbot () {
 }
 
 run_dotbot 'setup/console.yml' || true
-if [ "$CODESPACES" = true ]; then
+if [[ "$CODESPACES" = true ]]; then
   run_dotbot 'setup/codespaces.yml' || true
 else
   run_dotbot 'setup/deps.yml' || true
 fi
 run_dotbot 'setup/vscode.yml' || true
-
-# Run updates
-
-[[ -z "$CODESPACES" ]] && exec scripts/update.sh
