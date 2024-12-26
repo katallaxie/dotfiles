@@ -131,7 +131,6 @@ export ZSH_HIGHLIGHT_MAXLENGTH=200
 # https://help.zscaler.com/zia/configuring-zscaler-certificate-nodejs
 export NODE_EXTRA_CA_CERTS="$HOME/.zScaler.pem"
 
-
 # === PATH ===
 
 # This should be the last line:

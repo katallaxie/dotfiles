@@ -1,4 +1,8 @@
 ---
+- defaults:
+    link:
+      relink: true
+
 - clean: ["~"]
 
 # See https://ohmyz.sh/
@@ -71,4 +75,4 @@
       create: true
 
     # zScaler:
-    ~/.zScaler.pem: config/zScaler.pem
+    ~/.zscaller.pem: config/zscaler.pem

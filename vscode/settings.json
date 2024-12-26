@@ -1,56 +1,52 @@
 {
-    // Files:
-    "files.associations": {
-      ".babelrc": "jsonc",
-      ".eslintrc": "jsonc",
-      "*.pyi": "python",
-      "*.bats": "shellscript"
-    },
-    "files.autoSave": "onFocusChange",
-    "files.exclude": {
-      "**/.DS_Store": true,
-
-      "**/node_modules": true,
-      "**/bower_components": true,
-
-      "**/__pycache__": true,
-      "**/.cache": true,
-      "**/.idea": true,
-      "**/.pytest_cache": true,
-      "**/.mypy_cache": true,
-      "**/.venv": true,
-      "**/.coverage": true,
-      "**/*.py[co]": true,
-      "**/htmlcoverage": true,
-      "**/docs/build": true
-    },
-
-    // Format:
-    "editor.formatOnSave": true,
-
-    // Stats and telemetry:
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-
-    // Terminal:
-    "terminal.integrated.defaultProfile.osx": "zsh",
-    "terminal.integrated.defaultProfile.linux": "zsh",
-    "terminal.integrated.enableBell": true,
-
-    // Git:
-    "git.mergeEditor": true,
-    "github.copilot.enable": {
-      "*": true,
-      "plaintext": false,
-      "markdown": true,
-      "scminput": false,
-      "javascript": true,
-      "python": true
-    },
-
-    // Go:
-    "gopls": {
-      "ui.semanticTokens": true,
-      "formatting.gofumpt": true
-    }
-  }
+  // Files:
+  "files.associations": {
+    ".babelrc": "jsonc",
+    ".eslintrc": "jsonc",
+    "*.pyi": "python",
+    "*.bats": "shellscript"
+  },
+  "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/__pycache__": true,
+    "**/.cache": true,
+    "**/.idea": true,
+    "**/.pytest_cache": true,
+    "**/.mypy_cache": true,
+    "**/.venv": true,
+    "**/.coverage": true,
+    "**/*.py[co]": true,
+    "**/htmlcoverage": true,
+    "**/docs/build": true
+  },
+  // Format:
+  "editor.formatOnSave": true,
+  // Stats and telemetry:
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  // Terminal:
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  // Git:
+  "git.mergeEditor": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "javascript": true,
+    "python": true
+  },
+  // Go:
+  "gopls": {
+    "ui.semanticTokens": true,
+    "formatting.gofumpt": true
+  },
+  "accessibility.signals.terminalBell": {
+    "sound": "on"
+  },
+  "terminal.integrated.enableVisualBell": true
+}
