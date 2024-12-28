@@ -1,0 +1,5 @@
+# Setting the Ghostty theme
+theme = Adventure 
+
+# Setting the font family
+font-family = "JetBrains Mono"
