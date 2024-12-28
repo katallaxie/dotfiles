@@ -20,7 +20,7 @@
 
 # Update `brew` bundle with `cask` and `mas` deps
 - shell:
-    command: brew bundle --file=Brewfile --no-upgrade
+    command: brew bundle install --no-upgrade
     stdout: true
     stderr: true
 
