@@ -18,6 +18,12 @@
     stdout: true
     stderr: true
 
+# Update `brew` bundle with `cask` and `mas` deps
+- shell:
+    command: brew bundle --file=Brewfile --no-upgrade
+    stdout: true
+    stderr: true
+
 # Reload zsh
 - shell:
     command: source ~/.zshrc
