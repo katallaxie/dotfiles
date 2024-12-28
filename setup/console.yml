@@ -28,6 +28,7 @@
 
     # Ghostty:
     ~/.config/ghostty/config: config/ghostty
+      create: true
 
     # Terminal:
     ~/.shell:
