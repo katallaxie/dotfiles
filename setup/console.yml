@@ -27,7 +27,8 @@
     ~/.config/alacritty/alacritty.yml: setup/alacritty.yml
 
     # Ghostty:
-    ~/.config/ghostty/config: config/ghostty
+    ~/.config/ghostty/config:
+      path: config/ghostty
       create: true
 
     # Terminal:
