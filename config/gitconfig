@@ -25,6 +25,8 @@
   pruneTags = true
 [user]
   useConfigOnly = true
+  name=Sebastian Döll
+  email=sebastian@katallaxie.dev
 [diff]
   indentHeuristic = on
   noprefix = true
