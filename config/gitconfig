@@ -26,7 +26,7 @@
 [user]
   useConfigOnly = true
   name=Sebastian Döll
-  email=sebastian@katallaxie.dev
+  email=sebastian@katallaxie.me
 [diff]
   indentHeuristic = on
   noprefix = true
