@@ -1,6 +1,7 @@
 # katallaxie's dotfiles
 
 > Need some inspiration? [Have a look!](https://github.com/webpro/awesome-dotfiles)
+> Want to learn about modern-day command line alternatives? [Have a look!](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6)
 
 ## Features
 
