@@ -1,5 +1,7 @@
 # katallaxie's dotfiles
 
+> Need some inspiration? [Have a look!](https://github.com/webpro/awesome-dotfiles)
+
 ## Features
 
 * [Codespaces](https://github.com/features/codespaces)
