@@ -61,12 +61,6 @@
     ~/.editorconfig: config/editorconfig
     ~/.nanorc: config/nanorc
 
-    # Rio
-    ~/.config/rio/config.toml: config/rio.toml
-    ~/.config/rio/themes:
-      path: rio-terminal-themes/themes
-      create: true
-
     # SSH:
     ~/.ssh/config:
       path: config/ssh_config
