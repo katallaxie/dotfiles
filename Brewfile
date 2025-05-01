@@ -1,7 +1,6 @@
 tap "dart-lang/dart"
 tap "fgeller/tap"
 tap "grpc/grpc"
-tap "homebrew/bundle"
 tap "rs/tap"
 brew "ack"
 brew "ag"
