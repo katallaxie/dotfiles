@@ -72,6 +72,3 @@
       path: config/gpgagent
       force: true
       create: true
-
-    # zScaler:
-    ~/.zscaller.pem: config/zscaler.pem
