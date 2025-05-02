@@ -9,6 +9,7 @@
 * [Codespaces](https://github.com/features/codespaces)
 * 100% shell command produtivity boost
 * Use modern-day command line alternatives
+* Use 1Password
 * [csync](https://github.com/katallaxie/csync)
 
 ## Setup

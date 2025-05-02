@@ -111,6 +111,9 @@ export PATH="$PATH":"$HOME/.pub-cache/bin"
 # openjdk
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
+# 1password-cli
+export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
+
 # === Histories ===
 
 # Enable persistent REPL history for `node`.
