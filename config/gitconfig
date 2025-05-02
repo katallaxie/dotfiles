@@ -16,6 +16,10 @@
   required = true
 [commit]
   gpgsign = true
+[gpg]
+  format = ssh
+[gpg "ssh"]
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
 [push]
   default = simple
 [fetch]
@@ -27,6 +31,7 @@
   useConfigOnly = true
   email = sebastian@katallaxie.dev
   name = Sebastian Döll
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEH3D4EdceWzxibENOAYX+NuWByS/dL85ZJ5afgtI2BD
 [diff]
   indentHeuristic = on
   noprefix = true
