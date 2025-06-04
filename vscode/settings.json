@@ -50,5 +50,6 @@
   },
   "terminal.integrated.enableVisualBell": true,
   // Remote Containers:
-  "remote.containers.copyGitConfig": true
+  "dev.containers.dockerPath": "podman",
+  "remote.containers.copyGitConfig": true,
 }
