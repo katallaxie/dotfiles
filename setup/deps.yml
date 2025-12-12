@@ -1,4 +1,6 @@
 ---
+- plugins:
+    - dotbot-plugins/dotbot-brew/
 
 # Installing dependencies:
 - brewfile:
@@ -9,13 +11,13 @@
     # in a separate `brew bundle` call,
     # this is done because not everybody needs the same casks and apps,
     # but most of people would need the same formulas.
-    include: ['tap', 'brew', 'cask', 'mas']
+    include: ["tap", "brew", "cask", "mas"]
 
 # Run update script
 - shell:
-  - command: bash './scripts/update.sh'
-    stdout: true
-    stderr: true
+    - command: bash './scripts/update.sh'
+      stdout: true
+      stderr: true
 
 # Reload zsh
 - shell:
