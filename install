@@ -48,3 +48,4 @@ else
   run_dotbot 'setup/deps.yml' || true
 fi
 run_dotbot 'setup/vscode.yml' || true
+run_dotbot 'setup/zed.yml' || true

@@ -1,0 +1,7 @@
+---
+# Setting up zed:
+- link:
+    # zed:
+    ~/.config/zed/settings.json:
+      path: zed/settings.json
+      create: true
