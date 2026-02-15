@@ -1,15 +1,17 @@
 version: 1
 provider:
-    name: icloud
-    path: ""
-    directory: ""
+    name: opencloud
+    path: "Personal"
+    directory: "Backup"
 includes:
-  - azure
   - aws
-  - git
+  - azure
   - docker
+  - ghostty
+  - git
   - gnupg
   - hyper
+  - icemenubar
   - kubectl
   - macos
   - magnet
@@ -21,6 +23,7 @@ includes:
   - tmux
   - vscode
   - wget
+  - zed
 excludes:
   - bash
   - bartender
