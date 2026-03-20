@@ -10,13 +10,13 @@
   "icon_theme": {
     "mode": "system",
     "light": "Seti Icon Theme",
-    "dark": "Seti Icon Theme"
+    "dark": "Catppuccin Frappé"
   },
   "ui_font_size": 16,
   "buffer_font_size": 14,
   "theme": {
     "mode": "system",
     "light": "Ayu Light",
-    "dark": "Github Dark"
+    "dark": "macOS Classic Dark"
   }
 }
