@@ -90,6 +90,9 @@ eval "$(rbenv init - zsh)"
 # rustup:
 [[ -f "$HOME/.cargo/env" ]] && source "$HOME/.cargo/env"
 
+# cargo:
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # direnv:
 eval "$(direnv hook zsh)"
 
