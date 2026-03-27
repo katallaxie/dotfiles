@@ -1,11 +1,11 @@
 {
   "build": {
-      "dockerfile": "Dockerfile",
-      // Update 'VARIANT' to pick an Ubuntu version: jammy / ubuntu-22.04, focal / ubuntu-20.04, bionic /ubuntu-18.04
-      // Use ubuntu-24.04 or ubuntu-18.04 on local arm64/Apple Silicon.
-      "args": {
-          "VARIANT": "ubuntu-24.04"
-      }
+    "dockerfile": "Dockerfile",
+    // Update 'VARIANT' to pick an Ubuntu version: jammy / ubuntu-24.04, focal / ubuntu-20.04, bionic /ubuntu-18.04
+    // Use ubuntu-24.04 or ubuntu-22.04 on local arm64/Apple Silicon.
+    "args": {
+      "VARIANT": "ubuntu-24.04"
+    }
   },
   "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
   "postCreateCommand": "bash scripts/postCreateCommand.sh",
@@ -14,9 +14,9 @@
   },
   "customizations": {
     "vscode": {
-        "extensions": [
-            "GitHub.copilot"
-        ]
+      "extensions": [
+        "GitHub.copilot"
+      ]
     }
   }
 }
