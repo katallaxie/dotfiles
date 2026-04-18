@@ -105,6 +105,7 @@ cask "alacritty"
 cask "android-platform-tools"
 cask "android-studio"
 cask "beekeeper-studio"
+cask "brave-browser"
 cask "claude-code"
 cask "daisydisk"
 cask "dash"
@@ -136,14 +137,9 @@ cask "zed"
 mas "1Password for Safari", id: 1569813296
 mas "Apple Configurator", id: 1037126344
 mas "Bitwarden", id: 1352778147
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Magnet", id: 441258766
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
+mas "Keynote", id: 361285480
+mas "Numbers", id: 361304891
 mas "Pages", id: 361309726
 mas "Perplexity", id: 6714467650
-mas "Ulysses", id: 1225570693
 mas "WireGuard", id: 1451685025
 mas "Xcode", id: 497799835
