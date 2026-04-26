@@ -1,8 +1,8 @@
 version: 1
 provider:
-    name: opencloud
-    path: "Personal"
-    directory: "Backup"
+    name: icloud
+    path: ""
+    directory: ""
 includes:
   - aws
   - azure
