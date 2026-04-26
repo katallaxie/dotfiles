@@ -103,7 +103,7 @@ eval "$(direnv hook zsh)"
 export PATH="$HOME/.serverless/bin:$PATH"
 
 # flutter:
-export PATH=$PATH:$HOME/flutter/bin
+export PATH="$PATH:$HOME/flutter/bin"
 
 # k8s
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
@@ -115,7 +115,7 @@ export PATH="$PATH":"$HOME/.pub-cache/bin"
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
 # bitwarden ssh agent
-export SSH_AUTH_SOCK=~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock
+export SSH_AUTH_SOCK="$HOME/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
 
 # === Histories ===
 
