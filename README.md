@@ -9,7 +9,7 @@
 * [Codespaces](https://github.com/features/codespaces)
 * 100% shell command produtivity boost
 * Use modern-day command line alternatives
-* Use [bitwarden](https://bitwarden.com)
+* Use [1Password](https://1password.com)
 * [csync](https://github.com/katallaxie/csync)
 
 ## Setup
