@@ -5,9 +5,6 @@
 # This file is used as a part of `.shell_env`
 #
 
-# === Links ===
-[ ! -L /opt/homebrew/bin/docker ] || ln -s $(which podman) /opt/homebrew/bin/docker
-
 # === Aliases ===
 
 # Weather
