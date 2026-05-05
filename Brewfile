@@ -131,7 +131,6 @@ cask "wombat"
 cask "zed"
 mas "1Password for Safari", id: 1569813296
 mas "Apple Configurator", id: 1037126344
-mas "Bitwarden", id: 1352778147
 mas "Keynote", id: 361285480
 mas "Numbers", id: 361304891
 mas "Pages", id: 361309726
