@@ -49,3 +49,8 @@ source "$HOME/.shell_env"
 
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/sebastian.doell/.lmstudio/bin"
+# End of LM Studio CLI section
+

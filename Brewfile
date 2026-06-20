@@ -103,14 +103,13 @@ cask "android-platform-tools"
 cask "android-studio"
 cask "beekeeper-studio"
 cask "brave-browser"
-cask "claude-code"
 cask "daisydisk"
 cask "dash"
 cask "flutter"
 cask "ghostty"
 cask "hazeover"
 cask "insomnia"
-cask "jordanbaird-ice"
+cask "thaw"
 cask "keepingyouawake"
 cask "ngrok"
 cask "osaurus"
@@ -124,12 +123,10 @@ cask "stats"
 cask "visual-studio-code"
 cask "winbox"
 cask "wombat"
-cask "zed"
 mas "1Password for Safari", id: 1569813296
 mas "Apple Configurator", id: 1037126344
 mas "Keynote", id: 361285480
 mas "Numbers", id: 361304891
 mas "Pages", id: 361309726
-mas "Perplexity", id: 6714467650
 mas "WireGuard", id: 1451685025
 mas "Xcode", id: 497799835

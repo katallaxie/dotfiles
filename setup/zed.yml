@@ -5,3 +5,4 @@
     ~/.config/zed/settings.json:
       path: zed/settings.json
       create: true
+      force: true
