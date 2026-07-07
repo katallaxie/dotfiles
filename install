@@ -43,7 +43,7 @@ run_dotbot () {
 
 run_dotbot 'setup/console.yml' || true
 
-if [[ "$CODESPACES" = true ]]; then
+if [[ "$CODESPACES" = true || "$DEVPOD" = true ]]; then
   run_dotbot 'setup/codespaces.yml' || true
 else
   run_dotbot 'setup/deps.yml' || true
