@@ -10,4 +10,4 @@ export ZPLUG_HOME="$HOME/.zplug"
 [[ ! -d "$ZPLUG_HOME" ]] && git clone 'https://github.com/zplug/zplug' "$ZPLUG_HOME" || true
 
 # Change the default shell to zsh
-chsh -s "$ZSH_PATH"
+chsh -s "$ZSH_PATH" $USER
