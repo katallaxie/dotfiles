@@ -18,7 +18,7 @@ source "$HOME/.zplugrc"
 
 # === Shell parts ===
 
-if [[ "$CODESPACES" != true || "$DEVPOD" != true ]]; then
+if [[ -z "$CODESPACES" && -z "$DEVPOD" ]]; then
   source "$HOME/.shell/.exports"
   source "$HOME/.shell/.aliases"
   source "$HOME/.shell/.functions"
