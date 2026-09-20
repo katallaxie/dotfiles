@@ -43,3 +43,6 @@ alias tunnel="ngrok"
 
 # `code-insiders` command alias
 alias ci="code-insiders"
+
+# `ps` command alias
+alias ps="procs"
