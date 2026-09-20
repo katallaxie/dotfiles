@@ -125,7 +125,6 @@ cask "stats"
 cask "tableplus"
 cask "visual-studio-code"
 cask "winbox"
-cask "zed"
 mas "1Password for Safari", id: 1569813296
 mas "Apple Configurator", id: 1037126344
 mas "Keynote", id: 361285480
