@@ -99,7 +99,6 @@ brew "siderolabs/tap/talosctl"
 brew "slp/krunkit/krunkit"
 brew "txn2/tap/kubefwd"
 cask "1password-cli"
-cask "alacritty"
 cask "android-platform-tools"
 cask "android-studio"
 cask "beekeeper-studio"
@@ -123,7 +122,7 @@ cask "signal"
 cask "stats"
 cask "visual-studio-code"
 cask "winbox"
-cask "wombat"
+cask "zed"
 mas "1Password for Safari", id: 1569813296
 mas "Apple Configurator", id: 1037126344
 mas "Keynote", id: 361285480
